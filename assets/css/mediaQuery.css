@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.navBar a {
+  text-decoration: none;
+}
+
 #name { 
   color: white;
   background-color: #4aaaa5;
@@ -22,6 +26,7 @@
   margin-right: 17px;
   text-align: center;
   padding: 0 15px;
+  position: absolute;
   top: 20px;
   right: 170px;
 }
@@ -29,7 +34,7 @@
 .container {
   background-color: #d9d9d9;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  height: auto;
+  height: 600px;
 }
 
 .bio {
@@ -137,7 +142,7 @@
   }
   .container {
     width: 69%;
-    background-color: orange
+    background-color: orange;
   }
   .connect {
     width: 29%;
