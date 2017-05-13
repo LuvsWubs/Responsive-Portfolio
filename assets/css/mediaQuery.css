@@ -6,10 +6,6 @@
   text-decoration: none;
 }
 
-.navBar a {
-  text-decoration: none;
-}
-
 #name { 
   color: white;
   background-color: #4aaaa5;
@@ -26,7 +22,6 @@
   margin-right: 17px;
   text-align: center;
   padding: 0 15px;
-  position: absolute;
   top: 20px;
   right: 170px;
 }
@@ -34,7 +29,7 @@
 .container {
   background-color: #d9d9d9;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  height: 600px;
+  height: auto;
 }
 
 .bio {
@@ -131,4 +126,49 @@
   border-top: 4px solid #4aaaa5;
   height: 50px;
   padding-top: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .container {
+    width: 69%;
+    background-color: orange
+  }
+  .connect {
+    width: 29%;
+  }
+  .copyright {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    background-color: red;
+  }
+
+  .navbar {
+  width: 100%;
+  }
+
+  .bio {
+    width: 100%;
+  }
+
+  .connect {
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
 }
