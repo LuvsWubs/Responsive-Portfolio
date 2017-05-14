@@ -273,6 +273,10 @@ an id into CSS. what should i write to optimize this CSS?*/
   .connect {
     width: 100%;
   }
+
+  .copyright {
+    width: 100%;
+  }
 }
   @media screen and (max-width: 640px) {
  
@@ -302,7 +306,22 @@ an id into CSS. what should i write to optimize this CSS?*/
   }
 
   @media screen and (max-width: 440px) {
-    #links {
-      margin: 0 0 0 0;
-    }
+ 
+  .navBar {
+    width: 100%;
   }
+
+  #links {
+    margin: 0 0 0 10px;
+  }
+
+  .container {
+    height: 800px;
+  }  
+
+  .copyright {
+    width: 100%;
+  }
+
+
+
