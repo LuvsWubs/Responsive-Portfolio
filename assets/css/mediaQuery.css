@@ -322,6 +322,25 @@ an id into CSS. what should i write to optimize this CSS?*/
   .copyright {
     width: 100%;
   }
+  
+  #header {
+    width: 100%;
+  }
 
+  .bio {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  #yourName, #yourEmail, #yourMessage {
+    width: 90%;
+  }
+  
+  .bio_portfolio {
+    width: 100%;
+  }  
 
 
